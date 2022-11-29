@@ -58,9 +58,11 @@ Suppression rules can be created from an existing alert. They can be disabled an
 
 When a suppression rule is created, it will take effect from the point when the rule is created. The rule will not affect existing alerts already in the queue, prior to the rule creation. The rule will only be applied on alerts that satisfy the conditions set after the rule is created.
 
-There are two contexts for a suppression rule that you can choose from:
+There are three contexts for a suppression rule that you can choose from:
 
+- **Suppress alert on this user**
 - **Suppress alert on this device**
+- **Suppress alert on device groups**
 - **Suppress alert in my organization**
 
 The context of the rule lets you tailor what gets surfaced into the portal and ensure that only real security alerts are surfaced into the portal.
